@@ -28,23 +28,4 @@ Key components:
 ![Validation Accuracy](results/accuracy_curve.png)
 <!-- Add more: confusion matrix, reconstruction error histogram, example predictions -->
 
-## Installation
 
-```bash
-git clone https://github.com/HashithM/emi-pd-classification.git
-cd emi-pd-classification
-pip install -r requirements.txt
-
-emi-pd-classification/
-├── notebooks/
-│   ├── 01_eda_distribution.ipynb
-│   └── 02_training_classification_anomaly.ipynb
-├── results/
-│   ├── emi_class_distribution.png
-│   ├── loss_curve.png
-│   ├── accuracy_curve.png
-│   └── ... (confusion matrix, etc.)
-├── src/                  (optional – model, dataset, utils)
-├── requirements.txt
-├── README.md
-└── LICENSE
